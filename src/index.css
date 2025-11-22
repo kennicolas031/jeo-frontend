@@ -1,0 +1,54 @@
+/*src/index.css*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background image with overlay */
+.login-bg {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('/LoginPage.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Glassmorphism card */
+.login-card {
+  text-align: center;
+  padding: 40px 60px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.login-card h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Button style */
+.google-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  background: white;
+  transition: 0.3s ease-in-out;
+}
+
+.google-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+}
