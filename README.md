@@ -1,3 +1,25 @@
+# JEO LMS – Credit Management Made Simple
+
+A lightweight Loan Management System built with React + Supabase.
+Currently in development.
+
+## 🚀 Tech Stack
+- React + Vite
+- Supabase (Database + Auth)
+- TailwindCSS
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/kennicolas031/jeo-frontend.git
+cd jeo-frontend
+cp .env.example .env   # Add your Supabase keys here
+npm install
+npm run dev
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
